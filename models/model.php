@@ -3,7 +3,7 @@
 function message_queue_create_message($subject, $body) {
 	$message = new ElggObject();
 	$message->subtype = "message_queue_message";
-	$message->access_id = ACCESS_PUBLIC;
+	$message->access_id = ACCESS_PRIVATE;
 	$message->owner_guid = elgg_get_logged_in_user_guid();
 	$message->container_guid = $message->owner_guid;
 	$message->title = $subject;
@@ -55,6 +55,9 @@ function message_queue_send_message_type($type, $emails_sent, $max_emails) {
 		'metadata_name' => 'status',
 		'metadata_value' => $type,
 	);
+
+	$ia = elgg_set_ignore_access(true);
+
 	$messages = elgg_get_entities_from_metadata($options);
 	if ($messages) {
 		foreach ($messages as $message) {
@@ -98,6 +101,8 @@ function message_queue_send_message_type($type, $emails_sent, $max_emails) {
 			}
 		}
 	}
+
+	elgg_set_ignore_access($ia);
 
 	return $emails_sent;
 }
