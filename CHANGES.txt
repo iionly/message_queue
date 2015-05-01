@@ -1,0 +1,8 @@
+== Version history ==
+
+=== 1.8.0 (iionly) ===
+
+- Release for Elgg 1.8
+- Made cronjob callback function for sending queued messages to work (fix of permission issue)
+- General code cleanup
+- German translations added
