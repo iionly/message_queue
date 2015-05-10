@@ -1,5 +1,9 @@
 == Version history ==
 
+=== 1.9.0 (iionly) ===
+
+- Updated for Elgg 1.9 (works without changes also on Elgg 1.10 and 1.11)
+
 === 1.8.0 (iionly) ===
 
 - Release for Elgg 1.8

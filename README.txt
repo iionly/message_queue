@@ -1,7 +1,7 @@
-Message Queue plugin for Elgg 1.8
-==================================
+Message Queue plugin for Elgg 1.9/1.10/1.11
+===========================================
 
-Latest Version: 1.8.0  
+Latest Version: 1.9.0  
 Released: 2015-05-01  
 Contact: iionly@gmx.de  
 License: GNU General Public License version 2  
