@@ -1,10 +1,19 @@
-== Version history ==
+Changelog
+=========
 
-=== 1.9.0 (iionly) ===
+1.9.1
+-----
+
+- Verified it works on Elgg 1.9 - 1.12 and Elgg 2.0 (therefore should also work on future versions 2.X of Elgg),
+- composer.json added.
+
+1.9.0
+-----
 
 - Updated for Elgg 1.9 (works without changes also on Elgg 1.10 and 1.11)
 
-=== 1.8.0 (iionly) ===
+1.8.0
+-----
 
 - Release for Elgg 1.8
 - Made cronjob callback function for sending queued messages to work (fix of permission issue)

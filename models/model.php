@@ -82,7 +82,7 @@ function message_queue_send_message_type($type, $emails_sent, $max_emails) {
 				$body = $message->description;
 				$message_id = $message->getGUID();
 				foreach ($users as $to) {
-					notify_user($to->getGUID(), $site->getGUID(), $subject, $body, null, array('email'));
+					notify_user($to->getGUID(), $site->getGUID(), $subject, $body, array(), array('email'));
 					remove_entity_relationship($to->guid, 'message_queue', $message_id);
 				}
 				$user_count = count($users);
