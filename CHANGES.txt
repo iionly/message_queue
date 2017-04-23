@@ -1,6 +1,12 @@
 Changelog
 =========
 
+1.9.2
+-----
+
+- Rework of message sending cron handler code (old code might have failed to work on some systems),
+- Queue stats (unsent messages) displayed on Message Queue plugin settings page (to check if maximum number of messages to be sent per cron interval might need to be increased).
+
 1.9.1
 -----
 
