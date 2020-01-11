@@ -3,7 +3,7 @@
 	<name>Message queue</name>
 	<id>message_queue</id>
 	<author>Kevin Jardine &lt;kevin@radagast.biz&gt;, iionly</author>
-	<version>1.9.2</version>
+	<version>2.3.0</version>
 	<category>third-party</category>
 	<category>utility</category>
 	<blurb>Message queue</blurb>
@@ -13,6 +13,6 @@
 	<license>GNU Public License version 2</license>
 	<requires>
 		<type>elgg_release</type>
-		<version>1.9</version>
+		<version>2.3.0</version>
 	</requires>
 </plugin_manifest>

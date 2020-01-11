@@ -1,6 +1,14 @@
 Changelog
 =========
 
+2.3.0
+-----
+
+- Made the plugin to work again in the first place!!!
+- Requires Elgg 2.3.0 at minimum,
+- Reworked and upgraded the code to make use of Elgg 2.3 API functions,
+- Added options to trigger sending or deletions of messages in the queue from the Message Queue plugin settings page.
+
 1.9.2
 -----
 
